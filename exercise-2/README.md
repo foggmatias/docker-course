@@ -1,4 +1,4 @@
-# Ejercicio 1
+# Ejercicio 2
 ## Consigna
 1. Descarga la imagen nicopaez/pingapp:3.0.0
 2. Crear un repositorio en dockerhub
