@@ -28,9 +28,8 @@ Entregar el link a la carpeta del repositorio github.
     ```bash
     docker build -t foggmatiasbz/passwd-api .
     ```
-3. Finalmente, se realiza un inicio de sesión desde consola y se publica la imagen a su repositorio:
+3. Finalmente, se publica la imagen a su repositorio:
     ```bash
-    docker login
     docker push foggmatiasbz/passwd-api
     ```
 
