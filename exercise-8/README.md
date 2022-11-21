@@ -50,7 +50,7 @@ http {
     }
 }
 ```
-- Se establece un upstream repartido entre dos URLs, correspondientes a ambas aplicaciones (las aplicaciones exponen el puerto 3000 en sus contenedores, y estos pueden accederse a través de la red generada por docker compose usando como dirección el nombre indicado en [el archivo de configuración de compose](./docker-compose.yml).
+- Se establece un upstream repartido entre dos URLs, correspondientes a ambas aplicaciones (las aplicaciones exponen el puerto 3000 en sus contenedores, y estos pueden accederse a través de la red generada por docker compose usando como dirección el nombre indicado en [el archivo de configuración de compose](./docker-compose.yml)).
 - Se dirige el tráfico de la URL base al upstream.
 
 De esta manera, se podrá acceder a cualquiera de las dos aplicaciones idénticas desde el equipo anfitrión a través de `localhost:80/` o directamente, por ser el puerto 80 el puerto por defecto, `localhost/`.
