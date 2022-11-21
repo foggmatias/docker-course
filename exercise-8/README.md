@@ -1,4 +1,4 @@
-# Ejercicio 7
+# Ejercicio 8
 ## Consigna
 Utilizando docker compose generar una configuración para correr dos instancias de passwordapi (nicopaez/password-api) balanceadas por Nginx.
 
